@@ -1,6 +1,8 @@
 #!/bin/bash
 set +e
 
+unset SUDO_UID
+
 source ./ci/env
 ./ci/show-env.sh
 
